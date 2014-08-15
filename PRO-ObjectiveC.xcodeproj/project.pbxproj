@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1591F320199C07E10085D16A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1591F31F199C07E10085D16A /* main.m */; };
+		1591F329199C0A9A0085D16A /* Ch1GettingStarted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1591F328199C0A9A0085D16A /* Ch1GettingStarted.m */; };
+		1591F32D199C11D60085D16A /* Ch2-UsingClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 1591F32C199C11D60085D16A /* Ch2-UsingClasses.m */; };
+		15B3B269199E8F130080141C /* Hydrogen.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B3B268199E8F130080141C /* Hydrogen.m */; };
+		15C35A74199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C35A73199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.m */; };
+		15C35A78199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C35A77199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		1591F31C199C07E10085D16A /* PRO-ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PRO-ObjectiveC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1591F31F199C07E10085D16A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1591F327199C0A9A0085D16A /* Ch1GettingStarted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch1GettingStarted.h; sourceTree = "<group>"; };
+		1591F328199C0A9A0085D16A /* Ch1GettingStarted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch1GettingStarted.m; sourceTree = "<group>"; };
+		1591F32B199C11D60085D16A /* Ch2-UsingClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ch2-UsingClasses.h"; sourceTree = "<group>"; };
+		1591F32C199C11D60085D16A /* Ch2-UsingClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ch2-UsingClasses.m"; sourceTree = "<group>"; };
+		15B3B267199E8F130080141C /* Hydrogen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hydrogen.h; sourceTree = "<group>"; };
+		15B3B268199E8F130080141C /* Hydrogen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hydrogen.m; sourceTree = "<group>"; };
+		15C35A71199D2985005A1F71 /* Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Writer.h; sourceTree = "<group>"; };
+		15C35A72199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ch2-UsingClasses+Nuclear.h"; sourceTree = "<group>"; };
+		15C35A73199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ch2-UsingClasses+Nuclear.m"; sourceTree = "<group>"; };
+		15C35A76199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ch23-ObjectsAndMessaging.h"; sourceTree = "<group>"; };
+		15C35A77199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ch23-ObjectsAndMessaging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +73,44 @@
 		1591F31E199C07E10085D16A /* PRO-ObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				15C35A75199D35EC005A1F71 /* Chh3-ObjectsAndMessaging */,
+				1591F32A199C11AF0085D16A /* Ch2-UsingClasses */,
+				1591F326199C09A80085D16A /* Ch1-GettingStarted */,
 				1591F31F199C07E10085D16A /* main.m */,
 			);
 			path = "PRO-ObjectiveC";
+			sourceTree = "<group>";
+		};
+		1591F326199C09A80085D16A /* Ch1-GettingStarted */ = {
+			isa = PBXGroup;
+			children = (
+				1591F327199C0A9A0085D16A /* Ch1GettingStarted.h */,
+				1591F328199C0A9A0085D16A /* Ch1GettingStarted.m */,
+			);
+			name = "Ch1-GettingStarted";
+			sourceTree = "<group>";
+		};
+		1591F32A199C11AF0085D16A /* Ch2-UsingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1591F32B199C11D60085D16A /* Ch2-UsingClasses.h */,
+				1591F32C199C11D60085D16A /* Ch2-UsingClasses.m */,
+				15C35A71199D2985005A1F71 /* Writer.h */,
+				15C35A72199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.h */,
+				15C35A73199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.m */,
+			);
+			name = "Ch2-UsingClasses";
+			sourceTree = "<group>";
+		};
+		15C35A75199D35EC005A1F71 /* Chh3-ObjectsAndMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				15C35A76199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.h */,
+				15C35A77199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.m */,
+				15B3B267199E8F130080141C /* Hydrogen.h */,
+				15B3B268199E8F130080141C /* Hydrogen.m */,
+			);
+			name = "Chh3-ObjectsAndMessaging";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1591F32D199C11D60085D16A /* Ch2-UsingClasses.m in Sources */,
 				1591F320199C07E10085D16A /* main.m in Sources */,
+				1591F329199C0A9A0085D16A /* Ch1GettingStarted.m in Sources */,
+				15C35A74199D2E57005A1F71 /* Ch2-UsingClasses+Nuclear.m in Sources */,
+				15C35A78199D5C55005A1F71 /* Ch23-ObjectsAndMessaging.m in Sources */,
+				15B3B269199E8F130080141C /* Hydrogen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +288,7 @@
 				1591F325199C07E10085D16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
