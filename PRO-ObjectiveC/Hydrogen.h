@@ -12,4 +12,9 @@
 @interface Hydrogen : Ch2UsingClasses
 
 -(instancetype)initWithNeutrons: (NSUInteger) neurons;
++(instancetype)hydrogenWithNeutrons:(NSUInteger)neutrons;
+
+
+-(NSString*)factoid;
+
 @end

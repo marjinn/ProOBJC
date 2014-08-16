@@ -8,7 +8,7 @@
 
 #import "Ch2-UsingClasses.h"
 
-@interface Ch2_UsingClasses (Nuclear)
+@interface Ch2UsingClasses (Nuclear)
 
 -(NSInteger) atomicNumber;
 

@@ -9,7 +9,7 @@
 #import "Ch2-UsingClasses+Nuclear.h"
 
 
-@interface Ch2_UsingClasses ()
+@interface Ch2UsingClasses ()
 {
     //Instance Variables
 }
@@ -19,7 +19,7 @@
 @end
 
 
-@implementation Ch2_UsingClasses (Nuclear)
+@implementation Ch2UsingClasses (Nuclear)
 
 -(NSInteger) atomicNumber
 {

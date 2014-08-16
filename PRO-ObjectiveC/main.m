@@ -10,6 +10,9 @@
 
 #import "Ch1GettingStarted.h"
 #import "Ch2-UsingClasses.h"
+#import "Hydrogen.h"
+#import "Ch2UsingClasses+Helper.h"
+
 
 void calledJobs (void);
 
@@ -37,5 +40,14 @@ void calledJobs (void)
     atom                    =   [[Ch2UsingClasses alloc]init];
     
     NSLog(@"Atom chemical name: %@",[atom chemicalElement]);
+    
+    //ch3
+    Hydrogen* atom2 =   nil;
+    atom2           =
+    [Hydrogen hydrogenWithNeutrons:(NSUInteger)2.0f];
+    
+    NSString* fact  =   nil;
+    fact            =   [atom2 factoid];
+    NSLog(@"fact: %@",fact);
     
 }
